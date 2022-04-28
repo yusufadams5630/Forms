@@ -1,0 +1,28 @@
+ * {
+     padding: 0%;
+ }
+
+/* set form element to table so that we can style it */
+form {
+    display: table;   
+}
+
+/* align p tags */
+p {
+    display: table-row;
+}
+
+/* align boxes */
+ label, input {
+    display: table-cell;
+    vertical-align: top;
+}
+
+/* styling the button */
+#submit_btn {
+    text-align: center;
+    margin:auto;
+    padding: 1%;
+    display: flex;
+    background-color: rgb(253, 253, 253);
+}
